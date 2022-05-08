@@ -5,6 +5,12 @@ Enrollment Number - BT19CSE008
 
 Coditation Systems: Associate Software Developer | Assignment
 
+Green - Guessed letter is present in the word and is in the correct position
+
+Yellow - Guessed letter is present in the word but is not in the correct position
+
+Grey - Guessed letter is not present in the word 
+
 Starting the game - 
 
 ![image](https://user-images.githubusercontent.com/70939122/167309519-f1eb668f-9575-40c4-a591-ec7ec7e2f6a2.png)
