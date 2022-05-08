@@ -25,8 +25,12 @@ playAgain = bigFont.render("Play Again?", True, lightGreen)
 def checkGuess(turns, word, userGuess, window):
     renderList = ["","","","",""]
     spacing = 0
-    guessByUser = [grey,grey,grey,grey,grey]#setting all default colour codes to grey, which will change later according to data entered by user
+    #setting all default colour codes to grey, which will change later according to data entered by user
+    guessByUser = [grey,grey,grey,grey,grey]
 
+    #Green - Guessed letter is present in the word and is in the correct position
+    #Yellow - Guessed letter is present in the word but is not in the correct position
+    #Grey - Guessed letter is not present in the word
     for x in range(0,5):
         
         #condition for changing the value to yellow
